@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+		body
+		{
+			background-image: url("images/back.jpg");
+			background-size:  cover;
+			background-position: center;
+		}
+		h1
+		{
+			color:white;
+		}
+		#mySidenav a {
+		  position: absolute;
+		  right: -50px;
+		  transition: 0.4s;
+		  padding: 15px;
+		  width: 100px;
+		  text-decoration: none;
+		  font-size: 20px;
+		  color: white;
+		  border-radius: 0 5px 5px 0;
+		}
+		
+		#mySidenav a:hover {
+		  right: 0;
+		}
+		#logout {
+			top: 50px;
+			background-color: #2196F3;
+		}
+		.box
+        {
+            margin-left: 60px;
+            margin-bottom: 20px;
+            height: 250px;
+            width: 400px;
+            background-color: transparent;
+        }
+
+        .first
+        {
+            width:50%;
+            background-color: lightseagreen;
+            height: 60px;
+            float:left;
+        }
+        .first1
+        {
+            width: 50%;
+            background-color:  lightseagreen;
+            height:100%;
+            float:left;
+        }
+        .first2
+        {
+            width: 50%;
+            background-color: lightseagreen;
+            height: 100%;
+            float: left;
+        }
+        .second
+        {
+            width: 80%;
+            background-color:  transparent;
+            height: 90px;
+            float:left;
+        }
+        .second1
+        {
+            height:100%;
+            background-color: lightseagreen;
+            width:87%;
+            float:left;
+        }
+        .second2
+        {
+            height:100%;
+            background-color: transparent;
+            width:13%;
+            float:left;
+        }
+        .image
+        {
+            margin-left: 28%;
+            overflow: hidden;
+        }
+        .image img   
+        {
+            transition: all 0.3s;
+            display: block;
+            transform: scale(1);
+        }
+        .image:hover img 
+        {
+            transform: scale(1.5);
+        }
+        .third
+        {
+            width: 50%;
+            background-color: transparent;
+            height: 88px;
+            float:left;
+        }
+        .dropdown
+        {
+         	-webkit-appearance: button;
+         	-webkit-border-radius: 0px;
+        	width: 100%;
+            height: 100%;
+            background-color: rgb(47, 150, 145);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+            border: 3px;
+            border-color:red;
+            
+        }
+        .dropdown:hover
+        {
+	         -webkit-appearance: button;
+	         width: 100%;
+	         height: 100%;
+	         background-color: black;
+        }
+        option
+        {
+        	border: none;
+            color: white;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .button
+        {
+            background-color: rgb(47, 150, 145);
+            border: none;
+            color: white;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .button:hover
+        {
+            background-color: black; 
+            border: none;
+            color: white;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        } 

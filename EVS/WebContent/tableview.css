@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  align: center;
+  margin-top:70px;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+input[type=submit] {
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type=submit]:hover{
+    padding: 6px 25px;
+    background: white;
+    color: black ;
+    font-weight: bold;
+    border: 2 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+h1
+{
+	margin-top: 25px;
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing .08em;
+	background-color:: white;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: white;
+	text-shadow: rgba(245, 245, 245, 0.5) 3px 5px 1px;
+}
